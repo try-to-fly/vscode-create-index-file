@@ -1,7 +1,5 @@
-# Change Log
-All notable changes to the "create-index" extension will be documented in this file.
+### 0.0.2
+1. 增加对已有的index.ts文件的兼容（只增加没有的文件索引）
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-- Initial release
+### 0.0.1
+1. 初始化
