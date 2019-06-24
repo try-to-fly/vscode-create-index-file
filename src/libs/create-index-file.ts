@@ -9,7 +9,7 @@ export const createIndexFile = (fsPath: string) => {
     return void toast.error(`无法针对f非文件夹：${fsPath}创建index索引文件`);
   }
   let files = fs.readdirSync(fsPath);
-  const tsFiles = files.filter(file => file.match(/\.ts$/))
+  const tsFiles = files.filter(file => file.match(/(\.ts|\w+)$/))
     .map((file)=>file.replace(/(\.d)?\.ts$/,''));
   if (tsFiles.length === 0) {
     return void toast.error(`该目录下没有ts文件:${fsPath}`);
