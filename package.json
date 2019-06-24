@@ -2,7 +2,7 @@
     "name": "create-index-file",
     "displayName": "create-index-file",
     "description": "在目录下生成index索引文件",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "yoyo612",
     "engines": {
         "vscode": "^1.5.0"
@@ -15,10 +15,12 @@
     ],
     "main": "./out/src/extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.createIndexFile",
-            "title": "create index file"
-        }],
+        "commands": [
+            {
+                "command": "extension.createIndexFile",
+                "title": "create index file"
+            }
+        ],
         "menus": {
             "explorer/context": [
                 {
