@@ -1,4 +1,5 @@
 import fs = require('fs');
+import { EOL } from 'os';
 import path = require('path');
 import { toast } from './toast';
 
@@ -35,5 +36,5 @@ export const createIndexFile = (fsPath: string) => {
 }
 
 function getIndexStr(tsFiles) {
-  return tsFiles.map(file => `export * from './${file}';`).join('\r')+'\r';
+  return tsFiles.map(file => `export * from './${file}';`).join(EOL);
 }

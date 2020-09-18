@@ -12,6 +12,11 @@
   resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-6.14.6.tgz#31df045b4c7618ff74d84f542fc3d29445dd566b"
   integrity sha1-Md8EW0x2GP902E9UL8PSlEXdVms=
 
+"@types/vscode@1.14":
+  version "1.14.0"
+  resolved "https://registry.npm.taobao.org/@types/vscode/download/@types/vscode-1.14.0.tgz#24b3929ac86783796e7c497789aaddca30817d0b"
+  integrity sha1-JLOSmshng3lufEl3iardyjCBfQs=
+
 agent-base@4, agent-base@^4.1.0:
   version "4.3.0"
   resolved "https://registry.npm.taobao.org/agent-base/download/agent-base-4.3.0.tgz#8165f01c436009bccad0b1d122f05ed770efc6ee"
