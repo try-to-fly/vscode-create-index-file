@@ -2,7 +2,7 @@
     "name": "create-index-file",
     "displayName": "create-index-file",
     "description": "在目录下生成index索引文件",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "yoyo612",
     "engines": {
         "vscode": "^1.14.0"
